@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate the Values based on Objective",
+        "description": "",
+        "id": "verify-the-provided-values-based-on-the-objectives;validate-the-values-based-on-objective",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5784910300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Chrome Browser sucessfully",
+            "match": {
+              "location": "CustomStepDefinition.launch_the_Chrome_Browser_sucessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078619100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the URL",
+            "match": {
+              "location": "CustomStepDefinition.navigate_to_the_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320172200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Fetch the label and values from the mock webpage and verify the counts",
+            "match": {
+              "location": "CustomStepDefinition.fetch_the_label_and_values_from_the_mock_webpage_and_verify_the_counts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8805700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the each values displayed on the screen are greater than Zero",
+            "match": {
+              "location": "CustomStepDefinition.verify_the_each_values_displayed_on_the_screen_are_greater_than_Zero()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5221000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Compare the total balance shown on the screen",
+            "match": {
+              "location": "CustomStepDefinition.compare_the_total_balance_shown_on_the_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6229400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the Values are formatted as currencies",
+            "match": {
+              "location": "CustomStepDefinition.verify_the_Values_are_formatted_as_currencies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2282000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Sum the values and validate against the total balance",
+            "match": {
+              "location": "CustomStepDefinition.sum_the_values_and_validate_against_the_total_balance()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217149300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "CustomStepDefinition.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the provided values based on the Objectives",
+    "description": "",
+    "id": "verify-the-provided-values-based-on-the-objectives",
+    "keyword": "Feature",
+    "uri": "src/test/java/mockupExercise/CucumberFeatures/validateValues.feature"
+  }
+]

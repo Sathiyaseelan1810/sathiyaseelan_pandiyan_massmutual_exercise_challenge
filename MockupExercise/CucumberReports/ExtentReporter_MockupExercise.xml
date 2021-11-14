@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.423389">
+<testcase classname="Verify the provided values based on the Objectives" name="Validate the Values based on Objective" time="7.423389">
+<system-out><![CDATA[Given Launch the Chrome Browser sucessfully.................................passed
+And Navigate to the URL.....................................................passed
+When Fetch the label and values from the mock webpage and verify the counts.passed
+And Verify the each values displayed on the screen are greater than Zero....passed
+And Compare the total balance shown on the screen...........................passed
+And Verify the Values are formatted as currencies...........................passed
+Then Sum the values and validate against the total balance..................passed
+And Close the Browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
